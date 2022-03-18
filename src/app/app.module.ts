@@ -11,6 +11,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { QuestionComponent } from './question/question.component';
 import { HeaderComponent } from './header/header.component';
 import { ChangeBgDirective } from './change-bg.directive';
+import { ReshuffleComponent } from './reshuffle/reshuffle.component';
 
 
 
@@ -23,6 +24,7 @@ import { ChangeBgDirective } from './change-bg.directive';
     QuestionComponent,
     HeaderComponent,
     ChangeBgDirective,
+    ReshuffleComponent,
 
   ],
   imports: [

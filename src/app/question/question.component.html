@@ -1,5 +1,5 @@
 <app-header></app-header>
-<div class="container mt-5" *ngIf="!shuffle">
+<div class="container mt-5">
     <div class="card">
         <div class="d-flex justify-content-between p-3">
             <div class="image">
@@ -63,8 +63,8 @@
                 </div>
             </div>
             <button class="btn btn-info" (click)="goBack()">Back</button>
-            <!-- <button class="btn btn-primary" routerLink="/shuffleQuestions">Restart Game</button> -->
-            <button class="btn btn-primary" (click)="shuffleQuestion($event)">Restart Game</button>
+          <button class="btn btn-primary" routerLink="/reshuffle">Restart Game</button> 
+            <!-- <button class="btn btn-primary" (click)="shuffleQuestion($event)">Restart Game</button> -->
         </ng-container>
 
     </div>
