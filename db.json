@@ -19,6 +19,11 @@
       "email": "riaan@gmail.com",
       "password": "123456",
       "id": 6
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "123456",
+      "id": 7
     }
   ],
   "questions": [
@@ -145,7 +150,7 @@
   ],
   "shuffleQuestions": [
     {
-      "id":1,
+      "id": 1,
       "questionText": "Which is an array method to generate a new array based on a condition?",
       "options": [
         {
@@ -167,8 +172,7 @@
 
     },
     {
-      "id":2,
-
+      "id": 2,
       "questionText": "Which is NOT an access modifier?",
       "options": [
         {
@@ -188,7 +192,7 @@
       "explanation": "async is not used as an access modifier type in TypeScript"
     },
     {
-      "id":3,
+      "id": 3,
       "questionText": "Which keyword allows us to share information between files in TypeScript?",
       "options": [
         {
@@ -206,10 +210,9 @@
         }
       ],
       "explanation": "the export keyword allows for the information to be transmitted between files"
-     
     },
     {
-      "id":4,
+      "id": 4,
       "questionText": "In which of these does a class take parameters?",
       "options": [
         {
@@ -229,8 +232,7 @@
       "explanation": "a constructor is used by a class to take in parameters"
     },
     {
-      "id":5,
-      
+      "id": 5,
       "questionText": "Which of the following is NOT a type used in TypeScript?",
       "options": [
         {
